@@ -1,10 +1,11 @@
 pipeline {
     agent { label 'jenkins-agent' }
             
-        stage('CLeanup Workspace') {
-            steps {
+        stages{
+        stage("Cleanup Workspace"){
+                steps {
                 cleanWs()
-            }
+                }
         }
         
         stage("Build Application"){
@@ -20,6 +21,6 @@ pipeline {
            }
        }
       
-        
+        }     
  
 }
