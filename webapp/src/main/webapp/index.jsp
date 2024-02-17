@@ -33,6 +33,6 @@
 
    <h1> Thank You </h1>
    <br>
-   <h1> Dhoola Theerindi.. </h1>
+   <h1> Dhoola Theerindi.. We enjoyed a lot.. Thank you sir.. </h1>
 
 </form>
