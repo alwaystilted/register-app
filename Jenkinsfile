@@ -13,7 +13,7 @@ pipeline {
                 // sh 'sudo apt update'
                 //sh 'sudo apt upgrade'
                 //sh 'sudo apt install temurin-17-jdk'
-                sh 'touch /home/ubuntu/Jenkins-build-"${BUILD_NUMBER}"'
+                //sh 'touch /home/ubuntu/Jenkins-build-"${BUILD_NUMBER}"'
             }
         }   
         
